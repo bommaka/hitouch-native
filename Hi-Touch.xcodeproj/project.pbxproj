@@ -1,0 +1,864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EF2674181ADF1108B3DBB71 /* Pods_Hi_TouchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34205BEE0EDCD0C7EB4E2780 /* Pods_Hi_TouchUITests.framework */; };
+		79017C612085FFC500C17516 /* ProductAPIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79017C602085FFC500C17516 /* ProductAPIController.swift */; };
+		791E1A2C2054552700730F9F /* Deals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791E1A2B2054552700730F9F /* Deals.swift */; };
+		791E1A2E205513EF00730F9F /* MyDealsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791E1A2D205513EF00730F9F /* MyDealsCollectionCell.swift */; };
+		791E1A6C2055760F00730F9F /* CreateDealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791E1A6B2055760F00730F9F /* CreateDealViewController.swift */; };
+		791E1A6E2055987A00730F9F /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791E1A6D2055987A00730F9F /* ProductDetailsViewController.swift */; };
+		791E1A702059984A00730F9F /* ProductsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791E1A6F2059984A00730F9F /* ProductsCollectionCell.swift */; };
+		791E1A7220599A4D00730F9F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791E1A7120599A4D00730F9F /* Product.swift */; };
+		791E1A74205B0D7E00730F9F /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791E1A73205B0D7E00730F9F /* FilterViewController.swift */; };
+		79368DD1207CB19700F2183A /* Aggregations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79368DD0207CB19700F2183A /* Aggregations.swift */; };
+		79655CF22066CF8B003CE208 /* DataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79655CF12066CF8B003CE208 /* DataObject.swift */; };
+		79655CF420694DC7003CE208 /* FilterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79655CF320694DC7003CE208 /* FilterTableViewCell.swift */; };
+		797F8EEF209B4B8000CFE3BB /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797F8EEE209B4B8000CFE3BB /* Common.swift */; };
+		797F8EF1209C40EF00CFE3BB /* PublisherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797F8EF0209C40EF00CFE3BB /* PublisherViewController.swift */; };
+		79D131C02052CB9D00FEF63C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D131BF2052CB9D00FEF63C /* AppDelegate.swift */; };
+		79D131C22052CB9D00FEF63C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D131C12052CB9D00FEF63C /* LoginViewController.swift */; };
+		79D131C52052CB9D00FEF63C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D131C32052CB9D00FEF63C /* Main.storyboard */; };
+		79D131C72052CB9D00FEF63C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79D131C62052CB9D00FEF63C /* Assets.xcassets */; };
+		79D131CA2052CB9D00FEF63C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D131C82052CB9D00FEF63C /* LaunchScreen.storyboard */; };
+		79D131D52052CB9D00FEF63C /* Hi_TouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D131D42052CB9D00FEF63C /* Hi_TouchTests.swift */; };
+		79D131E02052CB9D00FEF63C /* Hi_TouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D131DF2052CB9D00FEF63C /* Hi_TouchUITests.swift */; };
+		79E3F1882053154800773B9D /* MyDealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3F1872053154800773B9D /* MyDealsViewController.swift */; };
+		79E3F18A2053158800773B9D /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3F1892053158800773B9D /* ProductsViewController.swift */; };
+		79E3F18C205315B500773B9D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3F18B205315B500773B9D /* ProfileViewController.swift */; };
+		79E3F1972053F33300773B9D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E3F1962053F33300773B9D /* Constants.swift */; };
+		A4F9C41337EF0774464CDF99 /* Pods_Hi_TouchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E90A2A668255EF481893F80 /* Pods_Hi_TouchTests.framework */; };
+		DEC5986943B92A468676B022 /* Pods_Hi_Touch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AAA153A29B71CB11C7B0A0 /* Pods_Hi_Touch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79D131D12052CB9D00FEF63C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79D131B42052CB9C00FEF63C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79D131BB2052CB9C00FEF63C;
+			remoteInfo = "Hi-Touch";
+		};
+		79D131DC2052CB9D00FEF63C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79D131B42052CB9C00FEF63C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79D131BB2052CB9C00FEF63C;
+			remoteInfo = "Hi-Touch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F57F1EFA19EF5D4C2A56366 /* Pods-Hi-TouchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hi-TouchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hi-TouchUITests/Pods-Hi-TouchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CD55AC83A8A97AC87261D4E /* Pods-Hi-Touch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hi-Touch.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hi-Touch/Pods-Hi-Touch.release.xcconfig"; sourceTree = "<group>"; };
+		2E90A2A668255EF481893F80 /* Pods_Hi_TouchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hi_TouchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33451C0D619941B4563D0029 /* Pods-Hi-TouchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hi-TouchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hi-TouchTests/Pods-Hi-TouchTests.release.xcconfig"; sourceTree = "<group>"; };
+		34205BEE0EDCD0C7EB4E2780 /* Pods_Hi_TouchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hi_TouchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		525C4E4166F9325F2D282CE7 /* Pods-Hi-TouchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hi-TouchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hi-TouchUITests/Pods-Hi-TouchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		79017C602085FFC500C17516 /* ProductAPIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAPIController.swift; sourceTree = "<group>"; };
+		791E1A2B2054552700730F9F /* Deals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deals.swift; sourceTree = "<group>"; };
+		791E1A2D205513EF00730F9F /* MyDealsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDealsCollectionCell.swift; sourceTree = "<group>"; };
+		791E1A6B2055760F00730F9F /* CreateDealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDealViewController.swift; sourceTree = "<group>"; };
+		791E1A6D2055987A00730F9F /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		791E1A6F2059984A00730F9F /* ProductsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCollectionCell.swift; sourceTree = "<group>"; };
+		791E1A7120599A4D00730F9F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		791E1A73205B0D7E00730F9F /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		79368DD0207CB19700F2183A /* Aggregations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aggregations.swift; sourceTree = "<group>"; };
+		79655CF12066CF8B003CE208 /* DataObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataObject.swift; sourceTree = "<group>"; };
+		79655CF320694DC7003CE208 /* FilterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewCell.swift; sourceTree = "<group>"; };
+		797F8EEE209B4B8000CFE3BB /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		797F8EF0209C40EF00CFE3BB /* PublisherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherViewController.swift; sourceTree = "<group>"; };
+		79D131BC2052CB9C00FEF63C /* Hi-Touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hi-Touch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D131BF2052CB9D00FEF63C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79D131C12052CB9D00FEF63C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		79D131C42052CB9D00FEF63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79D131C62052CB9D00FEF63C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79D131C92052CB9D00FEF63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79D131CB2052CB9D00FEF63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D131D02052CB9D00FEF63C /* Hi-TouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hi-TouchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D131D42052CB9D00FEF63C /* Hi_TouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hi_TouchTests.swift; sourceTree = "<group>"; };
+		79D131D62052CB9D00FEF63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D131DB2052CB9D00FEF63C /* Hi-TouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hi-TouchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D131DF2052CB9D00FEF63C /* Hi_TouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hi_TouchUITests.swift; sourceTree = "<group>"; };
+		79D131E12052CB9D00FEF63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E3F1872053154800773B9D /* MyDealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDealsViewController.swift; sourceTree = "<group>"; };
+		79E3F1892053158800773B9D /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		79E3F18B205315B500773B9D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		79E3F1962053F33300773B9D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		81AAA153A29B71CB11C7B0A0 /* Pods_Hi_Touch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hi_Touch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		896E5019D6C25A4D76787F7B /* Pods-Hi-TouchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hi-TouchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hi-TouchTests/Pods-Hi-TouchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C48C417A3271D10D85E65C86 /* Pods-Hi-Touch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hi-Touch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hi-Touch/Pods-Hi-Touch.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79D131B92052CB9C00FEF63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC5986943B92A468676B022 /* Pods_Hi_Touch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D131CD2052CB9D00FEF63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F9C41337EF0774464CDF99 /* Pods_Hi_TouchTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D131D82052CB9D00FEF63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF2674181ADF1108B3DBB71 /* Pods_Hi_TouchUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79368DCF207CB18700F2183A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79368DD0207CB19700F2183A /* Aggregations.swift */,
+				797F8EEE209B4B8000CFE3BB /* Common.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		797F8EED209B2C3D00CFE3BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E3F1892053158800773B9D /* ProductsViewController.swift */,
+				791E1A6D2055987A00730F9F /* ProductDetailsViewController.swift */,
+				791E1A6F2059984A00730F9F /* ProductsCollectionCell.swift */,
+				791E1A73205B0D7E00730F9F /* FilterViewController.swift */,
+				79655CF320694DC7003CE208 /* FilterTableViewCell.swift */,
+				79017C602085FFC500C17516 /* ProductAPIController.swift */,
+				797F8EF0209C40EF00CFE3BB /* PublisherViewController.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		79D131B32052CB9C00FEF63C = {
+			isa = PBXGroup;
+			children = (
+				79D131BE2052CB9C00FEF63C /* Hi-Touch */,
+				79D131D32052CB9D00FEF63C /* Hi-TouchTests */,
+				79D131DE2052CB9D00FEF63C /* Hi-TouchUITests */,
+				79D131BD2052CB9C00FEF63C /* Products */,
+				A8EE060630B8A60EA82A4BA7 /* Pods */,
+				AD08C387ECD194C2660B6C8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		79D131BD2052CB9C00FEF63C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79D131BC2052CB9C00FEF63C /* Hi-Touch.app */,
+				79D131D02052CB9D00FEF63C /* Hi-TouchTests.xctest */,
+				79D131DB2052CB9D00FEF63C /* Hi-TouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79D131BE2052CB9C00FEF63C /* Hi-Touch */ = {
+			isa = PBXGroup;
+			children = (
+				79368DCF207CB18700F2183A /* Models */,
+				79D131BF2052CB9D00FEF63C /* AppDelegate.swift */,
+				79D131C12052CB9D00FEF63C /* LoginViewController.swift */,
+				79D131C32052CB9D00FEF63C /* Main.storyboard */,
+				79D131C62052CB9D00FEF63C /* Assets.xcassets */,
+				79D131C82052CB9D00FEF63C /* LaunchScreen.storyboard */,
+				79D131CB2052CB9D00FEF63C /* Info.plist */,
+				79E3F1872053154800773B9D /* MyDealsViewController.swift */,
+				797F8EED209B2C3D00CFE3BB /* Products */,
+				79E3F18B205315B500773B9D /* ProfileViewController.swift */,
+				79E3F1962053F33300773B9D /* Constants.swift */,
+				791E1A2B2054552700730F9F /* Deals.swift */,
+				791E1A2D205513EF00730F9F /* MyDealsCollectionCell.swift */,
+				791E1A6B2055760F00730F9F /* CreateDealViewController.swift */,
+				791E1A7120599A4D00730F9F /* Product.swift */,
+				79655CF12066CF8B003CE208 /* DataObject.swift */,
+			);
+			path = "Hi-Touch";
+			sourceTree = "<group>";
+		};
+		79D131D32052CB9D00FEF63C /* Hi-TouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				79D131D42052CB9D00FEF63C /* Hi_TouchTests.swift */,
+				79D131D62052CB9D00FEF63C /* Info.plist */,
+			);
+			path = "Hi-TouchTests";
+			sourceTree = "<group>";
+		};
+		79D131DE2052CB9D00FEF63C /* Hi-TouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79D131DF2052CB9D00FEF63C /* Hi_TouchUITests.swift */,
+				79D131E12052CB9D00FEF63C /* Info.plist */,
+			);
+			path = "Hi-TouchUITests";
+			sourceTree = "<group>";
+		};
+		A8EE060630B8A60EA82A4BA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C48C417A3271D10D85E65C86 /* Pods-Hi-Touch.debug.xcconfig */,
+				2CD55AC83A8A97AC87261D4E /* Pods-Hi-Touch.release.xcconfig */,
+				896E5019D6C25A4D76787F7B /* Pods-Hi-TouchTests.debug.xcconfig */,
+				33451C0D619941B4563D0029 /* Pods-Hi-TouchTests.release.xcconfig */,
+				0F57F1EFA19EF5D4C2A56366 /* Pods-Hi-TouchUITests.debug.xcconfig */,
+				525C4E4166F9325F2D282CE7 /* Pods-Hi-TouchUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD08C387ECD194C2660B6C8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81AAA153A29B71CB11C7B0A0 /* Pods_Hi_Touch.framework */,
+				2E90A2A668255EF481893F80 /* Pods_Hi_TouchTests.framework */,
+				34205BEE0EDCD0C7EB4E2780 /* Pods_Hi_TouchUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79D131BB2052CB9C00FEF63C /* Hi-Touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D131E42052CB9D00FEF63C /* Build configuration list for PBXNativeTarget "Hi-Touch" */;
+			buildPhases = (
+				26F46638EF67AAD9CC6E3A86 /* [CP] Check Pods Manifest.lock */,
+				79D131B82052CB9C00FEF63C /* Sources */,
+				79D131B92052CB9C00FEF63C /* Frameworks */,
+				79D131BA2052CB9C00FEF63C /* Resources */,
+				1C9F5CDDAB34DB22E5A2ABA0 /* [CP] Embed Pods Frameworks */,
+				53CEEEF138EA83464D47A537 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hi-Touch";
+			productName = "Hi-Touch";
+			productReference = 79D131BC2052CB9C00FEF63C /* Hi-Touch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79D131CF2052CB9D00FEF63C /* Hi-TouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D131E72052CB9D00FEF63C /* Build configuration list for PBXNativeTarget "Hi-TouchTests" */;
+			buildPhases = (
+				6C77091A9CA7FDA5E4F19FDD /* [CP] Check Pods Manifest.lock */,
+				79D131CC2052CB9D00FEF63C /* Sources */,
+				79D131CD2052CB9D00FEF63C /* Frameworks */,
+				79D131CE2052CB9D00FEF63C /* Resources */,
+				56D0961A32283D26E0FCAD92 /* [CP] Embed Pods Frameworks */,
+				8EFF791BF22F21DF6130E393 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79D131D22052CB9D00FEF63C /* PBXTargetDependency */,
+			);
+			name = "Hi-TouchTests";
+			productName = "Hi-TouchTests";
+			productReference = 79D131D02052CB9D00FEF63C /* Hi-TouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79D131DA2052CB9D00FEF63C /* Hi-TouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D131EA2052CB9D00FEF63C /* Build configuration list for PBXNativeTarget "Hi-TouchUITests" */;
+			buildPhases = (
+				706D96F9744A0F22F6E1BD83 /* [CP] Check Pods Manifest.lock */,
+				79D131D72052CB9D00FEF63C /* Sources */,
+				79D131D82052CB9D00FEF63C /* Frameworks */,
+				79D131D92052CB9D00FEF63C /* Resources */,
+				268804FFB6FC5FEEAF1710F2 /* [CP] Embed Pods Frameworks */,
+				5F829BFEBFB7CE7BA9016909 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79D131DD2052CB9D00FEF63C /* PBXTargetDependency */,
+			);
+			name = "Hi-TouchUITests";
+			productName = "Hi-TouchUITests";
+			productReference = 79D131DB2052CB9D00FEF63C /* Hi-TouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79D131B42052CB9C00FEF63C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Swathi B";
+				TargetAttributes = {
+					79D131BB2052CB9C00FEF63C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					79D131CF2052CB9D00FEF63C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 79D131BB2052CB9C00FEF63C;
+					};
+					79D131DA2052CB9D00FEF63C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 79D131BB2052CB9C00FEF63C;
+					};
+				};
+			};
+			buildConfigurationList = 79D131B72052CB9C00FEF63C /* Build configuration list for PBXProject "Hi-Touch" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79D131B32052CB9C00FEF63C;
+			productRefGroup = 79D131BD2052CB9C00FEF63C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79D131BB2052CB9C00FEF63C /* Hi-Touch */,
+				79D131CF2052CB9D00FEF63C /* Hi-TouchTests */,
+				79D131DA2052CB9D00FEF63C /* Hi-TouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79D131BA2052CB9C00FEF63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D131CA2052CB9D00FEF63C /* LaunchScreen.storyboard in Resources */,
+				79D131C72052CB9D00FEF63C /* Assets.xcassets in Resources */,
+				79D131C52052CB9D00FEF63C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D131CE2052CB9D00FEF63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D131D92052CB9D00FEF63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C9F5CDDAB34DB22E5A2ABA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hi-Touch/Pods-Hi-Touch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/RATreeView/RATreeView.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RATreeView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hi-Touch/Pods-Hi-Touch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		268804FFB6FC5FEEAF1710F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hi-TouchUITests/Pods-Hi-TouchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26F46638EF67AAD9CC6E3A86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hi-Touch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53CEEEF138EA83464D47A537 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hi-Touch/Pods-Hi-Touch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56D0961A32283D26E0FCAD92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hi-TouchTests/Pods-Hi-TouchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F829BFEBFB7CE7BA9016909 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hi-TouchUITests/Pods-Hi-TouchUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C77091A9CA7FDA5E4F19FDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hi-TouchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		706D96F9744A0F22F6E1BD83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hi-TouchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EFF791BF22F21DF6130E393 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hi-TouchTests/Pods-Hi-TouchTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79D131B82052CB9C00FEF63C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E3F1882053154800773B9D /* MyDealsViewController.swift in Sources */,
+				791E1A2E205513EF00730F9F /* MyDealsCollectionCell.swift in Sources */,
+				79655CF22066CF8B003CE208 /* DataObject.swift in Sources */,
+				791E1A6C2055760F00730F9F /* CreateDealViewController.swift in Sources */,
+				797F8EEF209B4B8000CFE3BB /* Common.swift in Sources */,
+				791E1A6E2055987A00730F9F /* ProductDetailsViewController.swift in Sources */,
+				79017C612085FFC500C17516 /* ProductAPIController.swift in Sources */,
+				79D131C22052CB9D00FEF63C /* LoginViewController.swift in Sources */,
+				791E1A7220599A4D00730F9F /* Product.swift in Sources */,
+				79E3F18C205315B500773B9D /* ProfileViewController.swift in Sources */,
+				79368DD1207CB19700F2183A /* Aggregations.swift in Sources */,
+				791E1A74205B0D7E00730F9F /* FilterViewController.swift in Sources */,
+				79655CF420694DC7003CE208 /* FilterTableViewCell.swift in Sources */,
+				79E3F18A2053158800773B9D /* ProductsViewController.swift in Sources */,
+				79D131C02052CB9D00FEF63C /* AppDelegate.swift in Sources */,
+				791E1A2C2054552700730F9F /* Deals.swift in Sources */,
+				797F8EF1209C40EF00CFE3BB /* PublisherViewController.swift in Sources */,
+				791E1A702059984A00730F9F /* ProductsCollectionCell.swift in Sources */,
+				79E3F1972053F33300773B9D /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D131CC2052CB9D00FEF63C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D131D52052CB9D00FEF63C /* Hi_TouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D131D72052CB9D00FEF63C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D131E02052CB9D00FEF63C /* Hi_TouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79D131D22052CB9D00FEF63C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79D131BB2052CB9C00FEF63C /* Hi-Touch */;
+			targetProxy = 79D131D12052CB9D00FEF63C /* PBXContainerItemProxy */;
+		};
+		79D131DD2052CB9D00FEF63C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79D131BB2052CB9C00FEF63C /* Hi-Touch */;
+			targetProxy = 79D131DC2052CB9D00FEF63C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79D131C32052CB9D00FEF63C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79D131C42052CB9D00FEF63C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79D131C82052CB9D00FEF63C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79D131C92052CB9D00FEF63C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79D131E22052CB9D00FEF63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79D131E32052CB9D00FEF63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79D131E52052CB9D00FEF63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C48C417A3271D10D85E65C86 /* Pods-Hi-Touch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Hi-Touch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tandf.Hi-Touch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		79D131E62052CB9D00FEF63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CD55AC83A8A97AC87261D4E /* Pods-Hi-Touch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Hi-Touch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tandf.Hi-Touch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		79D131E82052CB9D00FEF63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 896E5019D6C25A4D76787F7B /* Pods-Hi-TouchTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25UBA444KH;
+				INFOPLIST_FILE = "Hi-TouchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tandf.Hi-TouchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hi-Touch.app/Hi-Touch";
+			};
+			name = Debug;
+		};
+		79D131E92052CB9D00FEF63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33451C0D619941B4563D0029 /* Pods-Hi-TouchTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25UBA444KH;
+				INFOPLIST_FILE = "Hi-TouchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tandf.Hi-TouchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hi-Touch.app/Hi-Touch";
+			};
+			name = Release;
+		};
+		79D131EB2052CB9D00FEF63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F57F1EFA19EF5D4C2A56366 /* Pods-Hi-TouchUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25UBA444KH;
+				INFOPLIST_FILE = "Hi-TouchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tandf.Hi-TouchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hi-Touch";
+			};
+			name = Debug;
+		};
+		79D131EC2052CB9D00FEF63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525C4E4166F9325F2D282CE7 /* Pods-Hi-TouchUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25UBA444KH;
+				INFOPLIST_FILE = "Hi-TouchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tandf.Hi-TouchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hi-Touch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79D131B72052CB9C00FEF63C /* Build configuration list for PBXProject "Hi-Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D131E22052CB9D00FEF63C /* Debug */,
+				79D131E32052CB9D00FEF63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D131E42052CB9D00FEF63C /* Build configuration list for PBXNativeTarget "Hi-Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D131E52052CB9D00FEF63C /* Debug */,
+				79D131E62052CB9D00FEF63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D131E72052CB9D00FEF63C /* Build configuration list for PBXNativeTarget "Hi-TouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D131E82052CB9D00FEF63C /* Debug */,
+				79D131E92052CB9D00FEF63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D131EA2052CB9D00FEF63C /* Build configuration list for PBXNativeTarget "Hi-TouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D131EB2052CB9D00FEF63C /* Debug */,
+				79D131EC2052CB9D00FEF63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79D131B42052CB9C00FEF63C /* Project object */;
+}

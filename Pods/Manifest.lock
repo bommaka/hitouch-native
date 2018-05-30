@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (4.7.0)
+  - Kingfisher (4.6.3)
+  - MaterialComponents/AnimationTiming (46.1.0)
+  - MaterialComponents/Palettes (46.1.0)
+  - MaterialComponents/private/Application (46.1.0)
+  - MaterialComponents/private/Math (46.1.0)
+  - MaterialComponents/TextFields (46.1.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (46.1.0):
+    - MaterialComponents/private/Application
+  - MDFInternationalization (1.0.4)
+  - RATreeView (2.1.2)
+  - ReachabilitySwift (4.1.0)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - MaterialComponents/TextFields
+  - RATreeView
+  - ReachabilitySwift
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  Kingfisher: 98e6d5b5e807645743e8ed5ececd25d688d38452
+  MaterialComponents: f14582653f35407ff1aef50e705a15c1b0d0b70c
+  MDFInternationalization: e355b0cebecf53d60233bd267084e49366c82513
+  RATreeView: 380cde0090cfde21dc6ac29137f49d3b768fdd28
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 5ee2721dfabd89f090ae64498e62408d3d2680da
+
+COCOAPODS: 1.4.0
